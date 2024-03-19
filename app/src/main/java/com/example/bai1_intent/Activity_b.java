@@ -14,8 +14,8 @@ public class Activity_b extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_b);
-        //TextView t=(TextView)findViewById(R.id.textView1);
-        t.setText("hello world ");
+        TextView t=(TextView)findViewById(R.id.textView1);
+        t.setText("hello world tranvanhungnew");
         Button b=(Button)findViewById(R.id.btn1);
         b.setOnClickListener(new View.OnClickListener(){
             @Override
