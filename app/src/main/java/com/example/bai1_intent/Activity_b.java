@@ -15,7 +15,7 @@ public class Activity_b extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_b);
         TextView t=(TextView)findViewById(R.id.textView1);
-        t.setText("Đây là activity b ne ban oi");
+       /// t.setText("Đây là activity b ne ban oi");
         Button b=(Button)findViewById(R.id.btn1);
         b.setOnClickListener(new View.OnClickListener(){
             @Override
